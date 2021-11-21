@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixin";
+@import "navbar";
+@import "header";
+@import "features";
+@import "testimonials";
+@import "purchase";
+@import "footer";
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.CenterFlex{
+    @include CenterFlex;
+}
+
+button{
+    outline: none !important;
+}

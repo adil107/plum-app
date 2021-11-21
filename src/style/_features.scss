@@ -1,0 +1,48 @@
+
+#feature_heading{
+    h1{
+        color: $P_BLACK;
+    }
+    p{
+        color: $TEXT;
+        font-family: $T_FONT;
+        font-size: 1rem;
+    }
+}
+
+#feature_1{
+    .MicCard{
+       svg{
+        color: $P_RED;
+       } 
+       h1{
+           color: $P_BLACK;
+           font-size: 1rem;
+       }
+       p{
+           color: $TEXT;
+           font-size: 1rem;
+           font-family: $T_FONT;
+       }
+    }
+}
+
+////////////////////////////// Video ////////////////////////////
+
+.Video_Wrapper{
+    height: 40vw;
+    & svg{
+        bottom: 1vw;
+        width: 5vw;
+        height: 5vw;
+    }
+}
+////////////////////////////// Beat////////////////////////////
+.Beat_Wrapper{
+& p{
+    font-family: $T_FONT;
+    font-size: 1rem;
+    color: $TEXT;
+    
+}
+}

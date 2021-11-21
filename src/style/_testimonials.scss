@@ -1,0 +1,32 @@
+.Award_Winning{
+    background: $P_RED;
+    & h1{
+        font-family: $T_FONT;
+        font-weight: 500;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        width: 2rem;
+        height: 1rem;
+        background: $P_RED;
+        bottom: -0.9rem;
+        clip-path: polygon(0 0, 50% 100%, 100% 0);
+    }
+}
+
+.Testimonials_Card_Wrapper{
+    & svg{
+        color: $P_RED;
+    }
+    & p{
+        color: $TEXT;
+        font-family: $T_FONT;
+        font-size: 1rem;
+    }
+    & h1{
+        font-family:$T_FONT;
+        font-weight: 400;
+        
+    }
+}

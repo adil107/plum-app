@@ -1,0 +1,40 @@
+.header{
+    height: 45vw;
+    background: $P_BLACK;
+
+    & h1{
+      font-size: 3.5vw;
+        color:white;
+        font-weight: bolder;
+        line-height: 1.2;
+    }
+
+    & p{
+        font-size: 1.5vw;
+        color: #E9E9E9;
+        padding: 2vw 0;
+        font-family: $T_FONT;
+    }
+    
+    & button{
+        color: white;
+        padding: .8vw 1.8vw;
+        font-size:1vw;
+        font-weight: 600;
+        background: $P_RED;
+    }
+    & .header_2 {
+        height: 100% !important;
+
+        & #headerImg{
+            position: relative;
+            top: -2vw;
+            right: -6.8vw;
+            transform: scale(1.22);
+            -webkit-transform: scale(1.22);
+            -moz-transform: scale(1.22);
+            -ms-transform: scale(1.22);
+            -o-transform: scale(1.22);
+        }
+    }
+}

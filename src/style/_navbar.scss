@@ -1,0 +1,87 @@
+.navLi{
+    color: $P_BLACK;
+    font-size: 0.85rem;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;   
+        top: 0;
+        height:2px;
+        background: $P_RED;
+        transform: scaleX(0);
+        transition: .3s all;
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transition: .3s all;
+        -moz-transition: .3s all;
+        -ms-transition: .3s all;
+        -o-transition: .3s all;
+}
+    &:hover{
+        &::after{
+            transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            -moz-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+            -o-transform: scaleX(1);
+        }
+    }
+}
+.cartDiv{
+    &:hover{
+        svg{
+            color:$P_RED;
+        }
+        div{
+            bottom: -4.6rem;
+            opacity: 1;
+           visibility: visible;
+        }
+    }
+
+    .cartList {
+        bottom: -5.5rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: .4s all;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        -ms-transition: .4s all;
+        -o-transition: .4s all;
+        p{
+        font-size: 1rem;
+        font-family: $T_FONT;
+        color:$TEXT;
+        }
+    }
+}
+
+#navBtn{
+    font-size: 0.85rem;
+    background: $P_RED;
+    &:hover{
+        background: $P_BLACK;
+    }
+}
+
+
+///////////////// Mobile Device ///////////////////
+
+.Mobile_Bar{
+    font-family: $T_FONT;
+}
+.mobile_Ul{
+    & li{
+        font-size: .9rem;
+        color:$P_BLACK ;
+    };
+    & button{
+        &:hover{
+            background: $P_BLACK;
+        }
+    }
+}
