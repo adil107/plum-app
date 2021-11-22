@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer_1 py-16">
-        <div className="max-w-7xl px-5 sm:px-16 grid grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto px-5 sm:px-16 grid grid-cols-3 gap-8">
           <div className="col-span-3 lg:col-span-1 ">
             <h1>ABOUT US</h1>
             <p className="">
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="Footer_2 max-w-7xl px-5 sm:px-16 flex lg:flex-row lg:justify-between flex-col items-center py-5 ">
+      <div className="Footer_2 max-w-7xl mx-auto px-5 sm:px-16 flex lg:flex-row lg:justify-between flex-col items-center py-5 ">
         <div>
           <p>
             © 2017{" "}
